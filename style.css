@@ -27,9 +27,9 @@ body {
 nav {
   width: 100%;
   /* position: fixed; */
-  /* position: sticky; */
+  position: sticky;
   /* position: static; */
-  position: relative;
+/*   position: relative; */
   top: 0;
   left: 0;
   background-color: #ffffff;
