@@ -221,3 +221,21 @@ ul li a:hover {
     margin: auto;
   }
 }
+
+/* for mobile optmize */
+
+/* Mobile tweaks */
+  @media (max-width: 900px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+    .projects-list {
+      grid-template-columns: 1fr;
+    }
+    .skill, .project {
+      padding: 14px 16px;
+    }
+  }
