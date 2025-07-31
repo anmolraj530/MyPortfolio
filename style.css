@@ -225,6 +225,69 @@ ul li a:hover {
     grid-area: 1/1/2/2;
   }
 
+  .section__heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.skills__section,
+.projects__section {
+  background-color: var(--extra-light);
+  padding: 4rem 1rem;
+}
+
+.skills__container,
+.projects__container {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skills__list li {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.project__item {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project__item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.project__item p {
+  color: var(--text-light);
+  line-height: 1.5rem;
+}
+
+@media (width < 750px) {
+  .skills__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+
   .action__btns {
     margin: auto;
   }
